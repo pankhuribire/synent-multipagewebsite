@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Student Help Hub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Student<span>Help</span>Hub
+            </div>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Resources
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="active">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="page-hero">
+
+            <p>
+                GET IN TOUCH
+            </p>
+
+            <h1>
+                Have a question?
+                <span>Let's connect.</span>
+            </h1>
+
+            <p class="page-description">
+
+                Whether you have a question, suggestion, or want to
+                share an opportunity, we would love to hear from you.
+
+            </p>
+
+        </section>
+
+        <section class="contact-section">
+
+            <div class="contact-info">
+
+                <p class="section-label">
+                    CONTACT US
+                </p>
+
+                <h2>
+                    Let's build a better
+                    <span>student community</span>
+                </h2>
+
+                <p>
+
+                    Your feedback and ideas help us improve Student Help Hub
+                    and make it more useful for students.
+
+                </p>
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+                        📧
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Email
+                        </h3>
+
+                        <p>
+                            hello@studenthelphub.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+                        💬
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Community
+                        </h3>
+
+                        <p>
+                            Connect with fellow learners
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contact-form-container">
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            placeholder="What would you like to discuss?"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required></textarea>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="submit-btn">
+
+                        Send Message
+
+                    </button>
+
+                    <p id="formMessage"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
